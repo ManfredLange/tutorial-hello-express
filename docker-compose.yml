@@ -9,4 +9,5 @@ services:
     environment:
       NODE_ENV: "development"
     ports:
-    - "3100:3000"
+      - "3100:3000"
+      - "9229:9229"
